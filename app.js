@@ -17,5 +17,16 @@ function logPerson(person) {
 }
 
 
+const playBtn = document.getElementById("play");
+playBtn.onclick = () => {
+    alert();
+    const myAudio = new Audio("./audio.mp3");
+    myAudio.play();
+};
+
+
+
+
+
 const elementById = document.getElementById("div");
 
